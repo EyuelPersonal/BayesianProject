@@ -13,7 +13,7 @@ def get_data(ticker: str,
 
 def get_returns(data: pd.DataFrame) -> pd.DataFrame:
     data['returns'] = data['Close'].pct_change()
-    data['returns'] = data['returns'] * 100
+    data['returns'] = data['returns']
     return data
 
 def get_list_of_days(data: pd.DataFrame) -> pd.DataFrame:
