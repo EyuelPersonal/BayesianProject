@@ -1,0 +1,4 @@
+# python=3.9
+yfinance
+pandas
+pymc3
